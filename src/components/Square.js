@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Square = ({value, onClick}) => {
 let style = value? value : 'empty'
     return(

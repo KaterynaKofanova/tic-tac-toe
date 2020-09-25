@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Board from './Board'
 import swal from 'sweetalert'
+import Container from 'react-bootstrap/Container'
 
 function calculateWinner(squares) {
     const lines = [
@@ -67,11 +68,11 @@ const Game = () =>{
     }
 
     return(
-        <div className='game'>
+      <Container className='game'>
         <h1>Tic Tac Toe Game</h1>
         <Board squares={squares} onClick={handleClick} />
         <h2>Now playing as <span style={{color:'#ac0808'}}>{nextPlayer}</span></h2>
-        </div>
+      </Container>
     )
 }
 

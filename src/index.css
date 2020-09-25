@@ -4,7 +4,7 @@
   border: 1rem solid rgba(175, 145, 135, 0.35);
   /*background: #af9187;*/
   background: rgba(175, 145, 135, 0.6);
-  width: 500px;
+  max-width: 500px;
   height: 500px;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   text-align: center;
-  margin: 10px auto;
+  padding: 10px auto;
   font-size: 40px;
   font-family: 'Freckle Face', cursive;
 }
