@@ -4,11 +4,11 @@ import Square from './Square'
 
 const Board = ({squares, onClick}) => {
     return(
-        <Container className='board'>
+        <div className='board'>
             {squares.map((square, index) => (
                 <Square key={index} value={square} onClick={() => onClick(index)} />
             ))}
-        </Container>
+        </div>
     )
 }
 

@@ -68,11 +68,11 @@ const Game = () =>{
     }
 
     return(
-      <Container className='game'>
+      <div className='game'>
         <h1>Tic Tac Toe Game</h1>
         <Board squares={squares} onClick={handleClick} />
         <h2>Now playing as <span style={{color:'#ac0808'}}>{nextPlayer}</span></h2>
-      </Container>
+      </div>
     )
 }
 
